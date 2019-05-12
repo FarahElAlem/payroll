@@ -42,19 +42,41 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
         <li>
-          <a href="pages/widgets.html">
+          <a href="{{ url('/employees/') }}">
             <i class="fa fa-th"></i> <span>Employees</span>
             <span class="pull-right-container">
             </span>
           </a>
         </li>
         <li>
-          <a href="pages/widgets.html">
-            <i class="fa fa-th"></i> <span>Payroll</span>
+          <a href="{{ url('/payrolls/') }}">
+            <i class="fa fa-th"></i> <span>Payrolls</span>
             <span class="pull-right-container">
             </span>
           </a>
         </li>
+          <li>
+              <a href="{{ url('/components/') }}">
+                  <i class="fa fa-th"></i> <span>Components</span>
+                  <span class="pull-right-container">
+            </span>
+              </a>
+          </li>
+          <li>
+              <a href="{{ url('/operations/') }}">
+                  <i class="fa fa-th"></i> <span>Operations</span>
+                  <span class="pull-right-container">
+            </span>
+              </a>
+          </li>
+          <li>
+              <a href="{{ url('/payrollcomponents/') }}">
+                  <i class="fa fa-th"></i> <span>Payroll Components</span>
+                  <span class="pull-right-container">
+            </span>
+              </a>
+          </li>
+
       </ul>
     </section>
     <!-- /.sidebar -->
